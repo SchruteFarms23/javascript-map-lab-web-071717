@@ -29,7 +29,7 @@ var sortedRobots = robots.map(function (robot) {
   }else{
     var alli = "autobot";
   }
-  return Object.assign({}, robots, {
+  return Object.assign({}, robot, {
     name: robot.name,
     alliance: alli,
   });
@@ -41,7 +41,7 @@ var coloredZebraStripes = zebraStripes.map( function(zebra,index){
   }else {
     var col = "black"
   }
-  return Object.assign({},zebraStripes,{
+  return Object.assign({},zebra,{
     width: zebra.width,
     color: col,
   })
